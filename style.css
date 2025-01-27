@@ -108,13 +108,16 @@ body {
 
 .btn-primary{
     background-color: #0C70F2;
-    border-radius: 3%;
+    border-radius: 7px;
+    border: 2px solid #0C70F2;
+    box-shadow: 0px 5px 5px 1px #a3c9fc;
     color: white;
     font-family: inter;
     font-size: 1.4rem;
     margin: 4rem 0 4rem;
     width: 100%;
     cursor: pointer;
+    
 }
 
 .resultado-titulo{

@@ -81,7 +81,6 @@ async function getWeatherForecast() {
   }
 
   try {
-    // Chamada para a API de previsão
     const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&hourly=temperature_2m,rain`);
     
     if (!response.ok) {
@@ -91,11 +90,9 @@ async function getWeatherForecast() {
     const data = await response.json();
     console.log("Dados de previsão:", data);
 
-    // Acessando os dados de previsão
     const temperature = data.hourly.temperature_2m ? data.hourly.temperature_2m[0] : "Dados de temperatura não disponíveis";
     const rain = data.hourly.rain ? data.hourly.rain[0] : "Dados de chuva não disponíveis";
 
-    // Exibindo os dados no HTML
     document.querySelector('.previsao-texto').innerText = 
       `Previsão de temperatura: ${temperature}°C e chuva: ${rain}mm`;
 
