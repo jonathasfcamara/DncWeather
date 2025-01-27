@@ -1,0 +1,16 @@
+{
+  "name": "dncweather",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jonathas F Câmara",
+  "license": "ISC",
+  "description": "Desafio da DncWeather",
+  "links": {
+    "github": "https://github.com/jonathasfcamara/RID152423_DncWeather",
+    "project": "https://dncweathertime.netlify.app/"
+  }
+}
