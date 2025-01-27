@@ -120,6 +120,12 @@ body {
     
 }
 
+.btn-primary:hover{
+    transform: scale(1.05); 
+    transition: transform 0.3s;
+}
+
+
 .resultado-titulo{
     display: flex;
     justify-content: center;
