@@ -112,41 +112,45 @@ async function getWeatherForecast() {
             <div>Previsão do Tempo</div>
         </div>
     </div>
-    <div class="container-info">
+    <div class="teste">
+        <div class="container-info">
         <h1>Descubra Mais com Precisão: <br>
             Previsões do Tempo e endereços <br>
             em tempo real.</h1>
         <img src="/icons/image 2.png" alt="">
     </div>
+    </div>
+
     <div class="controlcolor">
         <form class="lista-dados">
-            <fieldset class="countainer-dados">
-            <legend></legend>
-            <div class="mb-3">
-                <label for="firstname" class="form-label">Primeiro Nome:</label>
-                <input type="text" id="firstname" class="form-control" placeholder="Insira seu primeiro nome:">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">E-mail:</label>
-                <input type="email" id="email" class="form-control" placeholder="Insira seu e-mail:">
-            </div>
-            <div class="mb-3">
-                <label for="cep" class="form-label">Digite o CEP:</label>
-                <input type="text" id="cep" class="form-control" placeholder="Insira o CEP:">
-            </div>
-            <div id="loglat-titulo">Digite a latitude e longitude para saber a previsão:</div>
-            <div class="mb-longlat">
-                <div class="mb-3">
-                    <label for="latitude" class="form-label"></label>
-                    <input type="text" id="latitude" class="form-control" placeholder="Latitude:">
-                </div>
-                <div class="mb-3">
-                    <label for="longitude" class="form-label"></label>
-                    <input type="text" id="longitude" class="form-control" placeholder="Longitude:">
-                </div>
-            </div>
-            <button type="button" onclick="getWeather()" class="btn-primary">Acessar</button>
-            </fieldset>
+          <fieldset class="countainer-dados">
+              <div class="mb-3">
+                  <label for="firstname" class="form-label">Primeiro Nome:</label>
+                  <input type="text" id="firstname" class="form-control" placeholder="Insira seu primeiro nome:">
+              </div>
+              <div class="mb-3">
+                  <label for="email" class="form-label">E-mail:</label>
+                  <input type="email" id="email" class="form-control" placeholder="Insira seu e-mail:">
+              </div>
+              <div class="mb-3">
+                  <label for="cep" class="form-label">Digite o CEP:</label>
+                  <input type="text" id="cep" class="form-control" placeholder="Insira o CEP:">
+              </div>
+              <div class="mb-3">
+                  <label for="cep" class="form-label">Digite a latitude e longitude para saber a previsão:</label>
+              </div>
+              <div class="mb-longlat">
+                  <div class="mb-3">
+                      <label for="latitude" class="form-label"></label>
+                      <input type="text" id="latitude" class="form-control" placeholder="Latitude:">
+                  </div>
+                  <div class="mb-3">
+                      <label for="longitude" class="form-label"></label>
+                      <input type="text" id="longitude" class="form-control" placeholder="Longitude:">
+                  </div>
+              </div>
+              <button type="button" onclick="getWeather()" class="btn-primary">Acessar</button>
+          </fieldset>
         </form>
         <div>
             <div class="resultado-titulo">
