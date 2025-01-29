@@ -302,4 +302,332 @@ body {
     }
 }
     
+html{
+    font-family: inter;
+    font-size:16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.custo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#0C70F2;
+    color: #ffff;
+    height: 6.25rem;
+    padding: 0 5% 0 5%;
+    height: 5rem;
+    padding-left: 1rem;
+}
+
+.custo-container > div{
+    font-weight: 600;
+    font-size: 3.2rem;
+    margin-left: 3.4rem;
+    margin: 0;
+}
+
+.container-menu{
+    display: flex;
+    font-size: 1.6rem;
+}
+
+.container-menu > div{
+    font-size: 1rem;
+    margin-right: 3.4rem;
+}
+
+.container-prin{
+    background-color: #f2f2f2;
+}
+
+.container-prin{
+    background-color: #f2f2f2;
+}
+
+.container-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding: 2rem 0 10rem 0;
+    line-height: 1rem;
+    gap: 4rem;
+    padding-top:10%;
+    margin: auto;
+    background-color: #f2f2f2;   
+    gap: 1rem;
+    padding-top:10%;
+    margin: auto;
+    background-color: #f2f2f2; 
+}
+
+.container-info h1 {
+    font-size: 1.8rem;
+    line-height: 2rem; 
+    text-align: left;
+    margin: 0;
+}
+
+
+.container-info img {
+    width: 11.8rem;
+    max-width: 30%;
+    height: auto;
+    object-fit: contain;
+}
+
+.controlcolor{
+    background-color: #f2f2f2;  
+    padding-bottom: 10rem;
+}
+
+.lista-dados{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 1.6rem;
+    padding-top: 5rem;
+    width: 54%;
+    border-radius: 3%;
+    background-color: white;    
+    text-align: left;
+    margin: auto;
+}
+
+.mb-3{
+    margin: 0 5% 0 5%;
+    background-color: white;    
+    text-align: left;
+    margin: auto;
+}
+
+.mb-3{
+    margin: 0 5% 0 5%;
+}
+
+
+
+.mb-longlat {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.mb-longlat .mb-3 {
+    flex: 1;
+    margin-bottom: 0.5rem;
+}
+
+.mb-longlat .mb-3:nth-child(1),
+.mb-longlat .mb-3:nth-child(2) {
+    margin-right: 1rem;
+}
+
+.mb-longlat input.form-control {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.btn-primary{
+    background-color: #0C70F2;
+    border-radius: 7px;
+    border: 2px solid #0C70F2;
+    box-shadow: 0px 5px 5px 1px #a3c9fc;
+    color: white;
+    font-family: inter;
+    font-size: 1.4rem;
+    margin: 4rem 0 4rem;
+    width: 90%;
+    width: 90%;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-primary:hover{
+    transform: scale(1.05); 
+    transition: transform 0.3s;
+}
+
+
+.resultado-titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-family: inter;
+    font-weight: 800;
+    font-size: 3.1rem;
+    margin-left: 5%;
+    margin-top: 20rem;
+}
+
+.resultado-titulo > img{
+    margin-left: 2rem;
+}
+
+
+.titulo-resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #0C70F2;
+    font-family: inter;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+    width: 80%;
+    height: 4rem;
+    border-top-left-radius: 30px;  
+    border-top-right-radius: 30px;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    font-family: inter;
+    font-size: 1rem;
+    font-weight: 800;
+    color: black ;
+    width: 80%;
+    height: 4rem;
+    border-bottom-left-radius: 30px;  
+    border-bottom-right-radius: 30px;
+}
+
+.resultado-global{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    
+}
+
+.previsao-tempo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-family: inter;
+    font-weight: 800;
+    font-size: 3.1rem;
+    background-color: #f2f2f2;
+    padding-top: 10rem;
+}
+
+.previsao-resultado{
+    background-color: #f2f2f2;
+    padding: 1.4rem;
+}
+
+.previsao-texto{
+    font-size: 1.3rem;
+    font-family: inter;
+    font-weight: 500;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.4rem;
+    border-radius: 2rem;
+    border: .1rem solid #0C70F2;
+    background-color: white;
+    margin-bottom: 10rem;
+}
+
+.footer{
+    display: flex;
+    justify-content:end;
+    background-color:#0C70F2;
+    color: #ffff;
+    width: 100%;
+    padding: 1rem 3% 1rem 0;
+    padding: 1rem 3% 1rem 0;
+    font-size: 1rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .container-menu{
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .container-info{
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .container-info h1{
+        text-align: center;
+        margin: 0 2rem 0 2rem;
+    }
+
+    .resultado-titulo{
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .resultado-global {
+        background-color: #0C70F2;
+        color: rgb(20, 20, 20);
+        border-radius: 30px;
+        padding: 0;
+        margin: 200px 0 0 0;
+        border-radius: 0;
+        padding: 2rem 0 2rem 0;
+    }
+    .resultado-titulo {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        padding-top: 1rem;
+    }
+    .titulo-resultado, .resultado {
+        flex-direction: column;
+        align-items: center;
+        text-align: right;
+        background-color: #0C70F2;
+    }
+    .resultado-titulo img {
+        margin-top: 1rem;
+    }
+
+    .resultado{
+        background-color: #0C70F2;
+        margin-top: 0;
+        text-align: right;
+    }
+
+    #logadouro, #bairro, #localidade, #logradouro-result,
+    #bairro-result, #localidade-result{
+        background-color: #0C70F2;
+        padding: 1rem 0 1 rem 0;
+    }
+
+    .resultado-global{
+        display: flex;
+        flex-direction: row;
+    }
+}
+    
     
