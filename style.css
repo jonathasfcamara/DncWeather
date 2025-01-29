@@ -602,6 +602,8 @@ body {
         margin-top: 2rem;
         padding-top: 1rem;
     }
+
+    
     .titulo-resultado, .resultado {
         flex-direction: column;
         align-items: center;
