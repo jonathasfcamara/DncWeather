@@ -112,13 +112,13 @@ async function getWeatherForecast() {
             <div>Previsão do Tempo</div>
         </div>
     </div>
-    <div class="teste">
-        <div class="container-info">
+    <div class="container-prin">
+      <div class="container-info">
         <h1>Descubra Mais com Precisão: <br>
             Previsões do Tempo e endereços <br>
             em tempo real.</h1>
         <img src="/icons/image 2.png" alt="">
-    </div>
+      </div>
     </div>
 
     <div class="controlcolor">
@@ -152,7 +152,7 @@ async function getWeatherForecast() {
               <button type="button" onclick="getWeather()" class="btn-primary">Acessar</button>
           </fieldset>
         </form>
-        <div>
+        <div class="global">
             <div class="resultado-titulo">
                 <div>Resultado da busca por CEP:</div>
                 <img src="/icons/image 2 (1).png" alt="">
@@ -160,8 +160,8 @@ async function getWeatherForecast() {
             <div class="resultado-global">
                 <div class="titulo-resultado">
                     <div id="logradouro">Logradouro/nome</div>
-                    <div>Bairro/Distrito</div>
-                    <div>Localidade/UF</div>
+                    <div id="bairro">Bairro/Distrito</div>
+                    <div id="localidade">Localidade/UF</div>
                 </div>
                 <div class="resultado">
                     <div id="logradouro-result"></div>
