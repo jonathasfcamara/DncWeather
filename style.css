@@ -664,6 +664,10 @@ body {
         display:flex;
         text-align: center;
     }
+
+    #end{
+        margin-left: 3rem;
+    }
 }
     
     
